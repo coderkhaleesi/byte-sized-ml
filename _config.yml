@@ -1,0 +1,24 @@
+title:              Byte-Sized ML
+email:              tanya2911dixit@gmail.com
+description:        A blog dedicated to all things ML
+author:             Tanya Dixit
+baseurl:            "/byte-sized-ml"
+url:                "https://coderkhaleesi.github.io"
+
+# Social Profiles
+twitter_username:
+github_username:
+facebook_username:
+linkedin_username:
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
