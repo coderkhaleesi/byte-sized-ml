@@ -70,6 +70,8 @@ Configuration file: C:/Users/hp/byte-sized-ml/byte-sized-ml/_config.yml
 </ul>
 Open "http://127.0.0.1:4000/byte-sized-ml/" in your browser. Your website should be ready.
 
+Now go to _posts folder and add your posts in the .md format.
+Remember, posts in the future time won't be visible, so make sure your date at the top of the post (between the dashed lines) is correct.
 </p>
 
 <p>Uh uh uh...!!! It's still not up. Just push to your repo that you created following the steps above (don't forget to make gh-pages as the default branch) and then navigate to url/baseurl. Github will host your website.</p>
