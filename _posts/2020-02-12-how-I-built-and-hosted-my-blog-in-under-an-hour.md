@@ -79,5 +79,13 @@ Open "http://127.0.0.1:4000/byte-sized-ml/" in your browser. Your website should
 <blockquote class="blockquote">Happy Coding!!!!</blockquote>
 
 
+<h4>References</h4>
+<ul>
+    <li>https://idratherbewriting.com/documentation-theme-jekyll/mydoc_publishing_github_pages.html</li>
+    <li>https://learn.cloudcannon.com/jekyll/why-use-a-static-site-generator/</li>
+    <li>https://blog.webjeda.com/why-jekyll-over-wordpress/</li>
+    <li>https://blog.webjeda.com/jekyll-ssl/</li>
+    <li>https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll</li>
+</ul>
 
 <p>Placeholder text by <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by <a href="https://unsplash.com/">Unsplash</a>.</p>
