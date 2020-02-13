@@ -1,5 +1,6 @@
 ---
 layout: post
+title: "Top Books for learning the math behind Machine Learning"
 subtitle: "And Data Science"
 date: 2020-02-13 12:34:07 -0400
 background: '/img/posts/05.jpg'
