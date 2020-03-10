@@ -68,17 +68,17 @@ Let's write out the whole expression now,
 $$
 E[g(Y)] =  \sum_y \sum_x x p_{x\vert y}(x\vert y) p_{Y}(y)
 
-\implies  \sum_y \sum_x x \frac{p(x, y)}{p_{Y}(y)} p_{Y}(y)
+& \implies  \sum_y \sum_x x \frac{p(x, y)}{p_{Y}(y)} p_{Y}(y)
 
-\implies \sum_y \sum_x x p(x, y)
+&\implies \sum_y \sum_x x p(x, y)
 
-\implies  \sum_x x \sum_y p(x, y)
+& \implies  \sum_x x \sum_y p(x, y)
 
-\text{Hint: Marginal Distribution}
+& \text{Hint: Marginal Distribution}
 
-\implies \sum_x x p(x)
+& \implies \sum_x x p(x)
 
-\implies E[X]
+& \implies E[X]
 $$
 
 Food for thought: From the above exercise, what we expect X to be after Y is the same as before. What does this tell you about X and Y?
