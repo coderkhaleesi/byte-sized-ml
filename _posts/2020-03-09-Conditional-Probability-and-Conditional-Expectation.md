@@ -68,7 +68,7 @@ Let's write out the whole expression now,
 $$
 E[g(Y)] =  \sum_y \sum_x x p_{x\vert y}(x\vert y) p_{Y}(y)
 
-& \implies  \sum_y \sum_x x \frac{p(x, y)}{p_{Y}(y)} p_{Y}(y)
+\newline & \implies  \sum_y \sum_x x \frac{p(x, y)}{p_{Y}(y)} p_{Y}(y)
 
 &\implies \sum_y \sum_x x p(x, y)
 
