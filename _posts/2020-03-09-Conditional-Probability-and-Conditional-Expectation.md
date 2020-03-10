@@ -17,16 +17,16 @@ background: '/img/posts/05.jpg'
 
 Let X, Y be jointly discrete random variables.
 $$
-    P_{x \given y} (x \given y)= P (X = x \given Y = y) = \frac{P (x,y)}{P_{Y}(y)}
+    P_{x \vert y} (x \vert y)= P (X = x \vert Y = y) = \frac{P (x,y)}{P_{Y}(y)}
 $$
 
 In words, this is "If we restrict our sample space to pairs (x,y) with the value of y equal to the given value and then divide the original mass function $p_{y}(x,y)$ with $p(y)$, we get a pmf on the restricted space, which is the conditional probability mass function (in discrete case)."
 
 Similarly, we can think about the continuous case although not as crudely. But for easy transference, we just take the same formula.
 
-$$ f_{x \given y} (x \given y)= f(X = x \given Y = y) = \frac{f(x,y)}{f_{Y}(y)} $$
+$$ f_{x \vert y} (x \vert y)= f(X = x \vert Y = y) = \frac{f(x,y)}{f_{Y}(y)} $$
 
-So really think about the sample space getting restricted as you are already given the value of y. Now the function $f(x \given y)$ is a probability distribution of the conditional measure of x given y. Those familiar with measure theory might be cringing right now at my crude explanation, but I hope to get my hands dirty with measure theory someday. Right now, I got to finish the article and study for my assignment. </p>
+So really think about the sample space getting restricted as you are already vert the value of y. Now the function $f(x \given y)$ is a probability distribution of the conditional measure of x given y. Those familiar with measure theory might be cringing right now at my crude explanation, but I hope to get my hands dirty with measure theory someday. Right now, I got to finish the article and study for my assignment. </p>
 
 
 
