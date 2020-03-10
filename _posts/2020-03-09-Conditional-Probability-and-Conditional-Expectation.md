@@ -42,12 +42,12 @@ More formally,
 
 Discrete case:
 $$
-E[X \vert Y=y] = \mathlarger_{x} P(X = x \vert Y = y) = \mathlarger_{x} xP_{x\vert y}(x\vert y)
+E[X \vert Y=y] = \mathlarger_{\sum_x} P(X = x \vert Y = y) = \mathlarger_{\sum_x} xP_{x\vert y}(x\vert y)
 $$
 
 Continuous case:
 $$
-E[X \vert Y=y] = \int_{-\infty}{+\infty} xf_{x\vert y}(x\vert y) = \int_{-\infty}{+\infty} \frac{xf(x, y)}{f_{Y}(y)}
+E[X \vert Y=y] = \int_{-\infty}^{+\infty} xf_{x\vert y}(x\vert y) = \int_{-\infty}^{+\infty} \frac{xf(x, y)}{f_{Y}(y)}
 $$
 
 
@@ -59,14 +59,14 @@ Let's try it out.
 So from what we learned it, let's first write down the inner expectation.
 
 $$
-E[ \mathlarger_{x} xP_{x\vert y}(x\vert y)]
+E[ \mathlarger_{\sum_x} xP_{x\vert y}(x\vert y)]
 $$
 Now, since this is an average over X, this will be a function of y. So the outer expectation can be taken as the expectation of a function of y over y. (which we know how to calculate)
 
 Let's write out the whole expression now,
 
 $$
-E[g(Y)] =  \mathlarger_{y} \mathlarger_{x} x p_{x\vert y}(x\vert y) p_{Y}(y)
+E[g(Y)] =  \mathlarger_{\sum_y} \mathlarger_{x} x p_{x\vert y}(x\vert y) p_{Y}(y)
 \implies  \mathlarger_{y} \mathlarger_{x} x \frac{p(x, y)}{p_{Y}(y)} p_{Y}(y)
 \implies  \mathlarger_{y} \mathlarger_{x} x p(x, y)
 \implies  \mathlarger_{x} x \mathlarger_{y} p(x, y)
