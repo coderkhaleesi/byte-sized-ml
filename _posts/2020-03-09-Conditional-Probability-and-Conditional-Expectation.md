@@ -37,11 +37,12 @@ So then what is this ? $$ E[X \vert Y] $$
 Well, in words this the Expectation of the random variable <strong>X</strong> in the conditional probability measure for <strong>X given Y</strong>.
 So in other words, it is the average of values that X takes weighted against the conditional probability of X given Y.</p>
 
+<p>
 More formally,
 
 Discrete case:
 $$
-E[X \vert Y=y] = \sigma_{x} P(X = x \vert Y = y) = \sigma_{x} xP_{x\vert y}(x\vert y)
+E[X \vert Y=y] = \mathlarger_{x} P(X = x \vert Y = y) = \mathlarger_{x} xP_{x\vert y}(x\vert y)
 $$
 
 Continuous case:
@@ -58,25 +59,24 @@ Let's try it out.
 So from what we learned it, let's first write down the inner expectation.
 
 $$
-
-E[ \sigma_{x} xP_{x\vert y}(x\vert y)]
+E[ \mathlarger_{x} xP_{x\vert y}(x\vert y)]
 $$
 Now, since this is an average over X, this will be a function of y. So the outer expectation can be taken as the expectation of a function of y over y. (which we know how to calculate)
 
 Let's write out the whole expression now,
 
 $$
-E[g(Y)] =  \sigma_{y} \sigma_{x} x p_{x\vert y}(x\vert y) p_{Y}(y)
-\implies  \sigma_{y} \sigma_{x} x \frac{p(x, y)}{p_{Y}(y)} p_{Y}(y)
-\implies  \sigma_{y} \sigma_{x} x p(x, y)
-\implies  \sigma_{x} x \sigma_{y} p(x, y)
+E[g(Y)] =  \mathlarger_{y} \mathlarger_{x} x p_{x\vert y}(x\vert y) p_{Y}(y)
+\implies  \mathlarger_{y} \mathlarger_{x} x \frac{p(x, y)}{p_{Y}(y)} p_{Y}(y)
+\implies  \mathlarger_{y} \mathlarger_{x} x p(x, y)
+\implies  \mathlarger_{x} x \mathlarger_{y} p(x, y)
 \text{Hint: Marginal Distribution}
-\implies \sigma_{x} x p(x)
+\implies \mathlarger_{x} x p(x)
 \implies E[X]
 $$
 
 Food for thought: From the above exercise, what we expect X to be after Y is the same as before. What does this tell you about X and Y?
-
+</p>
 
 <h4>References</h4>
 <ul>
