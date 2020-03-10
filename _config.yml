@@ -7,9 +7,9 @@ url:                "https://coderkhaleesi.github.io"
 
 # Social Profiles
 twitter_username:
-github_username:
-facebook_username:
-linkedin_username:
+github_username:        coderkhaleesi
+facebook_username:        TanyaDixit2911
+linkedin_username:        tanya-dixit-nn
 
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
@@ -22,3 +22,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+
+markdown: kramdown
+kramdown:
+   math_engine: mathjax
