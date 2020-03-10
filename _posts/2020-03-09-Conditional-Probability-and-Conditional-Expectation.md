@@ -66,12 +66,12 @@ Now, since this is an average over X, this will be a function of y. So the outer
 Let's write out the whole expression now,
 
 $$
-E[g(Y)] =  \mathlarger_{\sum_y} \mathlarger_{x} x p_{x\vert y}(x\vert y) p_{Y}(y)
-\implies  \mathlarger_{y} \mathlarger_{x} x \frac{p(x, y)}{p_{Y}(y)} p_{Y}(y)
-\implies  \mathlarger_{y} \mathlarger_{x} x p(x, y)
-\implies  \mathlarger_{x} x \mathlarger_{y} p(x, y)
+E[g(Y)] =  \mathlarger{\sum_y} \mathlarger{\sum_x} x p_{x\vert y}(x\vert y) p_{Y}(y)
+\implies  \mathlarger{\sum_y} \mathlarger{\sum_x} x \frac{p(x, y)}{p_{Y}(y)} p_{Y}(y)
+\implies  \mathlarger{\sum_y} \mathlarger{\sum_x} x p(x, y)
+\implies  \mathlarger{\sum_x} x \mathlarger{\sum_y} p(x, y)
 \text{Hint: Marginal Distribution}
-\implies \mathlarger_{x} x p(x)
+\implies \mathlarger{\sum_x} x p(x)
 \implies E[X]
 $$
 
