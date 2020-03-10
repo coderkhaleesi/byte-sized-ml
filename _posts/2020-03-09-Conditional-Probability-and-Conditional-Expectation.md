@@ -42,7 +42,7 @@ More formally,
 
 Discrete case:
 $$
-E[X \vert Y=y] = \mathlarger_{\sum_x} P(X = x \vert Y = y) = \mathlarger_{\sum_x} xP_{x\vert y}(x\vert y)
+E[X \vert Y=y] = \sum_x P(X = x \vert Y = y) = \sum_x xP_{x\vert y}(x\vert y)
 $$
 
 Continuous case:
@@ -59,19 +59,19 @@ Let's try it out.
 So from what we learned it, let's first write down the inner expectation.
 
 $$
-E[ \mathlarger_{\sum_x} xP_{x\vert y}(x\vert y)]
+E[ \sum_x xP_{x\vert y}(x\vert y)]
 $$
 Now, since this is an average over X, this will be a function of y. So the outer expectation can be taken as the expectation of a function of y over y. (which we know how to calculate)
 
 Let's write out the whole expression now,
 
 $$
-E[g(Y)] =  \mathlarger{\sum_y} \mathlarger{\sum_x} x p_{x\vert y}(x\vert y) p_{Y}(y)
-\implies  \mathlarger{\sum_y} \mathlarger{\sum_x} x \frac{p(x, y)}{p_{Y}(y)} p_{Y}(y)
-\implies  \mathlarger{\sum_y} \mathlarger{\sum_x} x p(x, y)
-\implies  \mathlarger{\sum_x} x \mathlarger{\sum_y} p(x, y)
+E[g(Y)] =  \sum_y \sum_x x p_{x\vert y}(x\vert y) p_{Y}(y)
+\implies  \sum_y \sum_x x \frac{p(x, y)}{p_{Y}(y)} p_{Y}(y)
+\implies \sum_y \sum_x x p(x, y)
+\implies  \sum_x x \sum_y p(x, y)
 \text{Hint: Marginal Distribution}
-\implies \mathlarger{\sum_x} x p(x)
+\implies \sum_x x p(x)
 \implies E[X]
 $$
 
