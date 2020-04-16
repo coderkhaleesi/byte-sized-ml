@@ -20,8 +20,8 @@ background: '/img/posts/05.jpg'
 
 <ul>
   <li>Get an AWS certification</li>
-  <img src="/img/AWS.png">
-  <p>This tops my list because Cloud technology is exploding right now. Everyone who is involved in technology will use the cloud sooner or later. Amazon owns 33% of the Global Cloud Infrastructure Services market. This means a lot of companies are using AWS. If you want to increase your employability, I suggest getting yourself one of these. Now, there are several AWS certifications, and getting them all is not only tedious, but probably unnecessary. If you want to find out which one to do, AWS website is probably the best guide. But if you want my advice, I'd say start with the Developer Associate one and then get one of the specialty ones (Big Data or Machine Learning if you are into data science). <a href="https://www.freecodecamp.org/news/pass-the-aws-developer-associate-exam-with-this-free-16-hour-course/">Free Code Camp</a> is offering free courses to prepare for some of them and they will roll out free courses on all of them in the coming months.</p>
+  <img src="/img/posts/AWS.png">
+  <p>This tops my list because Cloud technology is exploding right now. Everyone who is involved in technology will use the cloud sooner or later. Amazon owns 33% of the Global Cloud Infrastructure Services market. This means a lot of companies are using AWS. If you want to increase your employability, I suggest getting yourself one of these. Now, there are several AWS certifications, and getting them all is not only tedious, but probably unnecessary. If you want to find out which one to do, AWS website is probably the best guide. But if you want my advice, I'd say start with the Developer Associate one and then get one of the specialty ones (Big Data or Machine Learning if you are into data science). <a href="https://www.freeeecodecamp.org/news/pass-the-aws-developer-associate-exam-with-this-free-16-hour-course/">Free Code Camp</a> is offering free courses to prepare for some of them and they will roll out free courses on all of them in the coming months.</p>
 
 
 <li>Learn Docker</li>
