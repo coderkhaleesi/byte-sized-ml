@@ -3,7 +3,7 @@ layout: post
 title: "Simplifying Pytorch"
 subtitle: "A Pytorch Notebook in Progess for Deep Learning"
 date: 2020-04-23 12:34:07 -0400
-background: '/img/posts/07.jpg'
+background: '/img/posts/08.png'
 ---
 
 # A notebook to learn all the basic pytorch that's needed
