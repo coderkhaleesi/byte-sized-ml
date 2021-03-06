@@ -2,7 +2,7 @@
 layout: post
 title: "How can you use Machine Learning to give back to the world?"
 subtitle: "An informal introduction to ML for Good"
-date: 2021-03-06 07:00:00 -0400
+date: 2021-03-05 07:00:00 -0400
 background: '/img/posts/07.jpg'
 ---
 
